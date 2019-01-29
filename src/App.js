@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Tiles from './Components/Tiles/Tiles'
 import Links from './Components/Social Links/links';
 
 class App extends Component {
@@ -10,6 +11,7 @@ class App extends Component {
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
+          <Tiles />
         <Links />
         </header>
       </div>

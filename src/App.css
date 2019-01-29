@@ -14,6 +14,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: 'Bad Script';
   font-size: calc(10px + 2vmin);
   color: #282c34;
 }
@@ -21,6 +22,15 @@
 .App-link {
   color: #61dafb;
   display: inline-block;
+  font-family: 'Poiret One', cursive;
+}
+
+.Photo-tiles {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 100px;
+  box-shadow: 1px 1px rgba( 1, 1, 1, .1);
 }
 
 @keyframes App-logo-spin {
