@@ -28,8 +28,10 @@
 .Photo-tiles {
   display: flex;
   flex-direction: column;
-  width: 20%;
-  height: 100px;
+  max-width: 100%;
+  height: auto;
+  /* width: 20%; */
+  /* height: 100px; */
   box-shadow: 1px 1px rgba( 1, 1, 1, .1);
 }
 
