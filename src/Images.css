@@ -1,0 +1,17 @@
+.Banner {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px rgba( 1, 1, 1, .1);
+  }
+
+  .imageTile {
+    max-width: 75% ;
+    max-height: 200px;
+    margin: 50px;
+    box-shadow: 3px 3px rgba( 1, 1, 1, .1);
+    align-items: center;
+    justify-content: center; 
+  }

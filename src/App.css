@@ -7,32 +7,27 @@
   height: 40vmin;
 }
 
-.App-header {
-  background-color: white;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Bad Script';
-  font-size: calc(10px + 2vmin);
+.Splash-Welcome {
+  font-size: 1.75em;
+  /* text-align: center; */
+  font-family: 'Poiret One';
   color: #282c34;
+  margin-top: 30px;
+  display: inline-block;
 }
 
-.App-link {
+.Social-Link {
   color: #61dafb;
+  font-family: 'Poiret One';
   display: inline-block;
-  font-family: 'Poiret One', cursive;
 }
 
 .Photo-tiles {
   display: flex;
-  flex-direction: column;
-  max-width: 100%;
-  height: auto;
-  /* width: 20%; */
-  /* height: 100px; */
-  box-shadow: 1px 1px rgba( 1, 1, 1, .1);
+  flex-direction: row;
+  max-width: 33%;
+  height: 100px;
+  margin: 10px 10px 10px 10px;
 }
 
 @keyframes App-logo-spin {
