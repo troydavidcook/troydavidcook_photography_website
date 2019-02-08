@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import './Images.css'
 import Navbar from './Components/Navbar/navbar';
+import EmailForm from './Components/EmailForm/emailForm';
 import Banner from './Components/Banner/banner';
 import Links from './Components/Social_Links/links';
 import ImageTiles from'./Components/LandingPageTiles/landingPageTiles';
@@ -36,11 +37,12 @@ class App extends Component {
         <header className="App-header">
         {/* <Navbar /> */}
           <Links />
+          <EmailForm />
           <ImageTiles
             tiles={this.state.landingPageImages} />
+        </header>
           <Banner
             sedona={this.state.sedonaShot} />
-        </header>
       </div>
     )
   }

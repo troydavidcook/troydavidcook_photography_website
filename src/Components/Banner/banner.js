@@ -1,10 +1,14 @@
 import React from 'react';
-
+import {Row, Col} from 'react-bootstrap';
     function Banner (props) {
         
         return (
-            <div class="footer">
-                <img className="Banner" src={ props.sedona } alt=""/>
+            <div>
+                <Row>
+                    <Col lg="8" className="column">
+                        <img className="Banner" src={ props.sedona } alt=""/>
+                    </Col>
+                </Row>
             </div>
         )
     }
