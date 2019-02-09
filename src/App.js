@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import './Images.css'
-import Navbar from './Components/Navbar/navbar';
+import Navigation from './Components/Navbar/navbar';
 import EmailForm from './Components/EmailForm/emailForm';
 import Banner from './Components/Banner/banner';
 import Links from './Components/Social_Links/links';
@@ -35,7 +35,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-        {/* <Navbar /> */}
+        <Navigation />
           <Links />
           <EmailForm />
           <ImageTiles

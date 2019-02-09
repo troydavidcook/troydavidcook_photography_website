@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, Container,} from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 
 
 function ImageTiles (props) {

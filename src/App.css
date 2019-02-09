@@ -30,6 +30,10 @@
   margin: 10px 10px 10px 10px;
 }
 
+.navigation{
+  margin-right: -20px;
+}
+
 p {
   font-family: 'Poiret One';
 }
