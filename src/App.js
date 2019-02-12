@@ -15,12 +15,12 @@ class App extends Component {
     landingPageImages:
       [
         "https://i.imgur.com/kHmkftz.jpg",
-        "https://i.imgur.com/WrpUgBY.jpg",
-        "https://i.imgur.com/p26Pcs8.jpg",
         "https://i.imgur.com/TsCOafo.jpg",
+        "https://i.imgur.com/WrpUgBY.jpg",
         "https://i.imgur.com/tbrve0j.jpg",
         "https://i.imgur.com/EeUL98S.jpg",
-        "https://i.imgur.com/co0Wj8n.jpg"
+        "https://i.imgur.com/p26Pcs8.jpg",
+        "https://i.imgur.com/co0Wj8n.jpg",
 
       ],
 
@@ -41,8 +41,8 @@ class App extends Component {
           <ImageTiles
             tiles={this.state.landingPageImages} />
         </header>
-          <Banner
-            sedona={this.state.sedonaShot} />
+          {/* <Banner
+            sedona={this.state.sedonaShot} /> */}
       </div>
     )
   }

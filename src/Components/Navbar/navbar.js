@@ -1,9 +1,10 @@
+
 import React from 'react';
 import { Navbar } from 'react-bootstrap';
 function Navigation () {
     return (
         <div>
-            <Navbar className="navigation" bg="dark" variant="dark">
+            <Navbar static="top" className="navigation" bg="dark" variant="dark">
         <Navbar.Brand href="#home">
         <img
             alt=""
